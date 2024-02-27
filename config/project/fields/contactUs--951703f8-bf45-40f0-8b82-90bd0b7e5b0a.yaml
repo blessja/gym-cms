@@ -1,0 +1,19 @@
+columnSuffix: khbvsszh
+contentColumnType: text
+fieldGroup: 5c94fcc8-5c73-41e4-b333-ff73d8c0c418 # Common
+handle: contactUs
+instructions: null
+name: 'Contact us'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

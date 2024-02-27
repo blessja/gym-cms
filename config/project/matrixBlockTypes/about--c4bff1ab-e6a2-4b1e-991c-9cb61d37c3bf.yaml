@@ -1,0 +1,266 @@
+field: e957dcea-d4db-492e-b646-db2744f33af3 # Page Content
+fieldLayouts:
+  51461057-4e9a-4d4f-aa35-dea9b87463c5:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 142f073e-857e-4b4f-85c8-608862fbcdb7 # About Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b3c5a6c6-62b4-4c44-b761-bf18d8c6cdd3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 69a88d97-71f1-4b9e-9c09-91bc85fe35fe # About Tag
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6d077391-b49a-4015-9492-ea70084e59fc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 24c36a7e-fbf3-439a-aa5e-296790b04912 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 10a4226f-f320-42bb-a3ce-9d0a0d6b6e4a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 15abdbe4-9c65-4c1e-8371-fdee14e8d799 # About tagline
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a3e8f2bc-7272-44d1-b32b-faf9582a4558
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: da67c502-b003-4920-8d1f-8cb9b9a2d76b # Equipment
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6ce42e40-e2df-4ab0-9469-89d16fdc2d18
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2c24bfa2-b8d8-4eb7-b394-9820334aec19 # Quality
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e688364d-5599-4354-b284-250bccddb17e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1d2c73b9-1b80-437b-89e3-e0648a16c2c3 # Professional Trainers
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7fd0c2c5-c613-4467-8ded-a13513cee141
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 3c703999-d0ff-48c8-b384-0d4c9de378d5
+        userCondition: null
+fields:
+  1d2c73b9-1b80-437b-89e3-e0648a16c2c3: # Professional Trainers
+    columnSuffix: pwzahrgj
+    contentColumnType: text
+    fieldGroup: null
+    handle: professionalTrainers
+    instructions: null
+    name: 'Professional Trainers'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  2c24bfa2-b8d8-4eb7-b394-9820334aec19: # Quality
+    columnSuffix: hgrpfdgi
+    contentColumnType: text
+    fieldGroup: null
+    handle: quality
+    instructions: null
+    name: Quality
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  15abdbe4-9c65-4c1e-8371-fdee14e8d799: # About tagline
+    columnSuffix: jvkpvcmc
+    contentColumnType: text
+    fieldGroup: null
+    handle: aboutTagline
+    instructions: null
+    name: 'About tagline'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  24c36a7e-fbf3-439a-aa5e-296790b04912: # Heading
+    columnSuffix: artbbmdv
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  69a88d97-71f1-4b9e-9c09-91bc85fe35fe: # About Tag
+    columnSuffix: cmokpobm
+    contentColumnType: text
+    fieldGroup: null
+    handle: aboutTag
+    instructions: null
+    name: 'About Tag'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  142f073e-857e-4b4f-85c8-608862fbcdb7: # About Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: aboutImage
+    instructions: null
+    name: 'About Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:36f4d8c6-ae78-48e7-bcad-1c1509e6750f' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:36f4d8c6-ae78-48e7-bcad-1c1509e6750f' # Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  da67c502-b003-4920-8d1f-8cb9b9a2d76b: # Equipment
+    columnSuffix: paitneim
+    contentColumnType: text
+    fieldGroup: null
+    handle: equipment
+    instructions: null
+    name: Equipment
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: about
+name: About
+sortOrder: 2

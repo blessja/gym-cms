@@ -1,0 +1,6 @@
+{
+  "app.js": "https://localhost:8080/js/app.bundle.js",
+  "chunk-vendors.js": "https://localhost:8080/js/chunk-vendors.bundle.js",
+  "app.bundle.js.map": "https://localhost:8080/js/app.bundle.js.map",
+  "chunk-vendors.bundle.js.map": "https://localhost:8080/js/chunk-vendors.bundle.js.map"
+}

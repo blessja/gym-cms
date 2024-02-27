@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="theme-color" content="#000000"/>
+		<link rel="shortcut icon" href="./web/assets/img/favicon.ico"/>
+		<link rel="apple-touch-icon" sizes="76x76" href="./web/assets/img/apple-icon.png"/>
+		<link rel="stylesheet" href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous"/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"/>
+		<title>Wuim Gimnasium</title>
+	</head>
+
+	<body
+		class="text-gray-800 antialiased">
+		<!-- navbar  -->
+		<nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
+			<div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+				<div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+					<a class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="/index.html">Wuim Gimnasium</a>
+					<button class="cursor-pointer text-xl leading-none px-3 py-1 border
+																																				            border-solid border-transparent rounded bg-transparent block lg:hidden
+																																				            outline-none focus:outline-none" type="button" onclick="toggleNavbar('example-collapse-navbar')">
+						<i class="text-white fas fa-bars"></i>
+					</button>
+				</div>
+				<div class="lg:flex flex-grow items-center bg-white lg:bg-transparent
+																														          lg:shadow-none hidden" id="example-collapse-navbar">
+
+					<ul
+						class="flex flex-col lg:flex-row list-none lg:ml-auto">
+						<!-- Icon 1 -->
+						<li class="flex items-center">
+							<a class="lg:text-white lg:hover:text-gray-300 text-gray-800
+																																																                 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#pablo">
+								<i class="text-orange-500 fab fa-facebook text-lg leading-lg "></i>
+								<span class="lg:hidden inline-block ml-2">Share</span>
+							</a>
+						</li>
+						<!-- Icon 2 -->
+						<li class="flex items-center">
+							<a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3
+																																																                py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#pablo">
+								<i class="text-orange-500 fab fa-twitter text-lg leading-lg "></i>
+								<span class="lg:hidden inline-block ml-2">Tweet</span>
+							</a>
+						</li>
+						<!-- Icon 3 -->
+						<li class="flex items-center">
+							<a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3
+																																																                py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#pablo">
+								<i class="text-orange-500 fab fa-linkedin text-lg leading-lg "></i>
+								<span class="lg:hidden inline-block ml-2">Profile</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Footer -->
+
+		<div class="content"> {% block content %}{% endblock %}
+			</div>
+
+
+			<footer class="relative bg-gray-300 pt-8 pb-6">
+				<div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20" style="height: 80px; transform: translateZ(0px);">
+					<svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveaspectratio="none" version="1.1" viewbox="0 0 2560 100" x="0" y="0">
+						<polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
+					</svg>
+				</div>
+				<div class="container mx-auto px-4">
+					<div class="flex flex-wrap">
+						<div class="w-full lg:w-6/12 px-4">
+							<h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+							<h5 class="text-lg mt-0 mb-2 text-gray-700">
+								Find us on any of these platforms, we respond 1-2 business days.
+							</h5>
+							<div class="mt-6">
+								<button class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3" type="button">
+									<i class="flex fab fa-twitter text-orange-500"></i>
+								</button>
+								<button class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3" type="button">
+									<i class="flex fab fa-facebook-square text-orange-500"></i>
+								</button>
+								<button class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3" type="button">
+									<i class="flex fab fa-linkedin text-orange-500"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+					<hr class="my-6 border-gray-400"/>
+					<div class="flex flex-wrap items-center md:justify-between justify-center">
+						<div class="w-full md:w-4/12 px-4 mx-auto text-center">
+							<div class="text-sm text-gray-600 font-semibold py-1">
+								Copyright © Wuim Gimnasium 2021<i class="fas fa-dumbbell pl-1 fa-2x text-orange-500"></i>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</body>
+	</html>
+</footer></body><script>
+function toggleNavbar(collapseID) {
+document.getElementById(collapseID).classList.toggle("hidden");
+document.getElementById(collapseID).classList.toggle("block");
+}</script><script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script><script>
+AOS.init({delay: 200, duration: 1200, once: false})</script></html>

@@ -1,0 +1,87 @@
+fieldLayouts:
+  e1684dba-30a3-4cbb-9d5a-323349a6d16c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 4d1ec376-8505-4fd0-81e0-bda94347ce25
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e957dcea-d4db-492e-b646-db2744f33af3 # Page Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c7a4bf00-7057-4df1-afa1-7d6995a4e768
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bf0a1231-4da8-4205-adb2-0895df2ce3b3 # Trainers
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 912c8535-9450-4c49-bbc7-baaccadd6eab
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 951703f8-bf45-40f0-8b82-90bd0b7e5b0a # Contact us
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7fc785ab-c714-436d-8dcc-4a5ead395c9e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a95cf642-f5d2-48f0-9ab4-962546f690ab
+        userCondition: null
+      -
+        elementCondition: null
+        name: Trainers
+        uid: 15f8931f-f9a2-47ed-ae3d-30819492c0ad
+        userCondition: null
+handle: home
+hasTitleField: false
+name: Home
+section: beb37140-8551-4419-ac78-bd32dbf99a5c # Home
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

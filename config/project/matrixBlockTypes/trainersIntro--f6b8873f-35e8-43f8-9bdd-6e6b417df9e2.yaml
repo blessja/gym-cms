@@ -1,0 +1,78 @@
+field: e957dcea-d4db-492e-b646-db2744f33af3 # Page Content
+fieldLayouts:
+  e9a95bc7-3def-477a-bb3d-99bf87977b05:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 961d6031-75fa-46d3-ac4d-40ba4d255ba1 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 27b076c9-fa07-4e69-b1a3-92b8cda95f2d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 32900aa5-516b-4da7-9951-c4f23cf87d7d # Trainer Info
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aa175197-a094-4c82-be95-94742cb9a6fd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: da8f10a8-6b56-4205-99ca-0c8b7763f0a4
+        userCondition: null
+fields:
+  961d6031-75fa-46d3-ac4d-40ba4d255ba1: # Heading
+    columnSuffix: jpcbzlsi
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  32900aa5-516b-4da7-9951-c4f23cf87d7d: # Trainer Info
+    columnSuffix: mpqllbot
+    contentColumnType: text
+    fieldGroup: null
+    handle: trainerInfo
+    instructions: null
+    name: 'Trainer Info'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: trainersIntro
+name: 'Trainers Intro'
+sortOrder: 3

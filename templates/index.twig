@@ -1,0 +1,17 @@
+{% extends "_layout" %}
+{% block content %}
+
+	{% for block in entry.pageContent %}
+		{% if block.type == "hero" %}
+			{% include '_matrix-includes/_hero.twig' %}
+		{% elseif block.type == "about" %}
+			{% include '_matrix-includes/_about.twig' %}
+		{% elseif block.type == "trainersIntro" %}
+			{% include '_matrix-includes/_trainer.twig' %}
+		{% elseif block.type == "trainers" %}
+			{% include "_matrix-includes/_trainerCard.twig" %}
+
+		{% endif %}
+	{% endfor %}
+
+{% endblock %}

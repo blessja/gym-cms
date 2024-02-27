@@ -1,0 +1,171 @@
+field: e957dcea-d4db-492e-b646-db2744f33af3 # Page Content
+fieldLayouts:
+  2bc2ff7f-3aef-4489-9cfb-2e8e4cb64c35:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a5e5f065-7548-42a7-9081-4cba1f874560 # Background Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e7f9960c-157c-40f6-a7db-6a2cd6beb7d2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5eb16edf-ded3-466f-b0e1-0224ea554aed # Intro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a8c9b1c3-c8a5-46fd-ae7f-b9e792ce9ac2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6877da97-409a-4174-982f-579490bf904f # Intro Tag
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ea48460d-4e8c-470a-b8c1-387150baf331
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3451c387-6070-4c67-8357-6669cddbe551 # Download Button
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 68ef093e-e21d-4b65-b9b9-df8a91aea28c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 44a075af-0e3b-4192-8f23-30963bff6a35
+        userCondition: null
+fields:
+  5eb16edf-ded3-466f-b0e1-0224ea554aed: # Intro
+    columnSuffix: gsehabja
+    contentColumnType: text
+    fieldGroup: null
+    handle: intro
+    instructions: null
+    name: Intro
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  3451c387-6070-4c67-8357-6669cddbe551: # Download Button
+    columnSuffix: xlvydvzu
+    contentColumnType: text
+    fieldGroup: null
+    handle: downloadButton
+    instructions: null
+    name: 'Download Button'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  6877da97-409a-4174-982f-579490bf904f: # Intro Tag
+    columnSuffix: avbyhygx
+    contentColumnType: text
+    fieldGroup: null
+    handle: introTag
+    instructions: null
+    name: 'Intro Tag'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  a5e5f065-7548-42a7-9081-4cba1f874560: # Background Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: backgroundImage
+    instructions: null
+    name: 'Background Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:36f4d8c6-ae78-48e7-bcad-1c1509e6750f' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:36f4d8c6-ae78-48e7-bcad-1c1509e6750f' # Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: 'Add a background Image'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources:
+        - 'volume:36f4d8c6-ae78-48e7-bcad-1c1509e6750f' # Uploads
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: hero
+name: Hero
+sortOrder: 1

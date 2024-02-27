@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 5c94fcc8-5c73-41e4-b333-ff73d8c0c418 # Common
+handle: trainers
+instructions: null
+name: Trainers
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_trainers}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

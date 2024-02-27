@@ -1,0 +1,70 @@
+dateModified: 1703184608
+email:
+  fromEmail: admin@admin.com
+  fromName: 'Craft 3'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: '@webroot/uploads'
+    type: craft\fs\Local
+    url: '@web/uploads'
+meta:
+  __names__:
+    1d2c73b9-1b80-437b-89e3-e0648a16c2c3: 'Professional Trainers' # Professional Trainers
+    2c24bfa2-b8d8-4eb7-b394-9820334aec19: Quality # Quality
+    5a95b1ec-78da-4fdf-877b-3642ff46dda1: Description # Description
+    5c94fcc8-5c73-41e4-b333-ff73d8c0c418: Common # Common
+    5eb16edf-ded3-466f-b0e1-0224ea554aed: Intro # Intro
+    6f88b036-803b-47fd-90b5-b52d3fd6c515: 'Full Name' # Full Name
+    9bbaa755-0aa5-482b-b0fc-f0441e1a8101: 'Full name' # Full name
+    15abdbe4-9c65-4c1e-8371-fdee14e8d799: 'About tagline' # About tagline
+    24c36a7e-fbf3-439a-aa5e-296790b04912: Heading # Heading
+    35bdc8f9-ac15-477f-ae48-c8c4d9385b91: Trainers # Trainers
+    36f4d8c6-ae78-48e7-bcad-1c1509e6750f: Uploads # Uploads
+    51b54946-1712-4465-bb21-4716c3a3afe8: Photo # Photo
+    69a88d97-71f1-4b9e-9c09-91bc85fe35fe: 'About Tag' # About Tag
+    70c4632f-a33d-4760-8dcc-522db883edc3: 'Craft 3' # Craft 3
+    142f073e-857e-4b4f-85c8-608862fbcdb7: 'About Image' # About Image
+    961d6031-75fa-46d3-ac4d-40ba4d255ba1: Heading # Heading
+    3451c387-6070-4c67-8357-6669cddbe551: 'Download Button' # Download Button
+    6877da97-409a-4174-982f-579490bf904f: 'Intro Tag' # Intro Tag
+    32900aa5-516b-4da7-9951-c4f23cf87d7d: 'Trainer Info' # Trainer Info
+    940683ed-18d1-448c-a222-c4f4f867a637: Hero # Hero
+    951703f8-bf45-40f0-8b82-90bd0b7e5b0a: 'Contact us' # Contact us
+    a5e5f065-7548-42a7-9081-4cba1f874560: 'Background Image' # Background Image
+    ae613483-c755-4c82-b304-135bf6665ad2: Home # Home
+    beb37140-8551-4419-ac78-bd32dbf99a5c: Home # Home
+    bf0a1231-4da8-4205-adb2-0895df2ce3b3: Trainers # Trainers
+    c4bff1ab-e6a2-4b1e-991c-9cb61d37c3bf: About # About
+    d6ddbc26-545f-4a2f-8e41-91414463775f: Photo # Photo
+    da67c502-b003-4920-8d1f-8cb9b9a2d76b: Equipment # Equipment
+    dc2a2269-f434-4973-af9f-1342311544c2: rwgym # rwgym
+    e3dbbcac-e112-4322-a83c-64d6563ce322: Description # Description
+    e957dcea-d4db-492e-b646-db2744f33af3: 'Page Content' # Page Content
+    f3c61486-aab3-4f70-b9ea-f2b33ff56156: Trainer # Trainer
+    f6b8873f-35e8-43f8-9bdd-6e6b417df9e2: 'Trainers Intro' # Trainers Intro
+plugins:
+  scss:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  twigpack:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Craft 3'
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  deactivateByDefault: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
